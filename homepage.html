@@ -41,6 +41,10 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
+    <!-- Slick Carousel CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
   </head>
   <body class="body">
     <header class="header">
@@ -2055,9 +2059,25 @@
                   <a
                     href="https://www.instagram.com/holbertonschool/"
                     class="social-link"
-                    aria-label="Instagram"
-                    ><span class="holberton_school-icon-ic_instagram"></span
-                  ></a>
+                    aria-label="Instagram">
+                    <span class="holberton_school-icon-ic_instagram"></span>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<script>
+  $(document).ready(function() {
+    $('.your-carousel-class').slick({
+      dots: true,
+      arrows: true,
+      autoplay: true,
+      autoplaySpeed: 3000
+    });
+  });
+</script>
+
+                  </a>
                 </li>
               </ul>
             </div>
