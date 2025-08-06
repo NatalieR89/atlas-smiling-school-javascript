@@ -71,6 +71,7 @@ The Holberton Smiling School web pages were developed by sections using the Boot
 [List of Results](https://github.com/jzamora5/holberton-smiling-school/blob/master/2-courses.html)
 
 [Footer](https://github.com/jzamora5/holberton-smiling-school/blob/master/courses.html)
+[Footer](https://natalier89.github.io/atlas-smiling-school-javascript/homepage.html)
 
 # Author:
 
